@@ -46,17 +46,6 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "SystemUIClocks-Handwritten",
-	owner: "google",
-	apk: "proprietary/SystemUIClocks-Handwritten/SystemUIClocks-Handwritten.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
 
 android_app_import {
 	name: "SystemUIClocks-Inflate",
@@ -94,14 +83,3 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "SystemUIClocks-Weather",
-	owner: "google",
-	apk: "proprietary/SystemUIClocks-Weather/SystemUIClocks-Weather.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
